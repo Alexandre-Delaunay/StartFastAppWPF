@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:Home="clr-namespace:StartFastApp.ViewModels.Home">
+
+    <!--  DataTemplate  -->
+    <DataTemplate DataType="{x:Type Home:HomeViewModel}">
+        <Home:HomeView />
+    </DataTemplate>
+
+</ResourceDictionary>

@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <!--  Colors  -->
+    <Color x:Key="BlueLight">#40C4FF</Color>
+    <SolidColorBrush x:Key="BlueLightBrush" Color="{StaticResource BlueLight}" />
+
+    <Color x:Key="ForegroundMain">#F6F6F6</Color>
+    <SolidColorBrush x:Key="ForeGroundMainBrush" Color="{StaticResource ForegroundMain}" />
+
+    <Color x:Key="MenuBackgroud">#2D2D2D</Color>
+    <SolidColorBrush x:Key="MenuBackgroudBrush" Color="{StaticResource MenuBackgroud}" />
+
+    <Color x:Key="PageBackground">#252525</Color>
+    <SolidColorBrush x:Key="PageBackgroundBrush" Color="{StaticResource PageBackground}" />
+
+    <Color x:Key="BlueText">#2290FF</Color>
+    <SolidColorBrush x:Key="BlueTextBrush" Color="{StaticResource BlueText}" />
+
+</ResourceDictionary>
